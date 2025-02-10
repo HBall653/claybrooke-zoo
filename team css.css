@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to right,rgb(252, 188, 248),rgb(207, 158, 247));
+    width: 1600px;
+}
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(240, 155, 214);
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a :hover{
+    background-color: crimson;
+}   
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 4, 7);
+}    
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
