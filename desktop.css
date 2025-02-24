@@ -1,0 +1,55 @@
+/* Desktop */
+@media only screen and (min-width: 800px) {
+    body {
+        background-color: blue;
+    }
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(252, 188, 248), rgb(207, 158, 247));
+    width: 1600px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header"
+        "nav main aside"
+        "footer footer footer"
+    ;
+
+}
+
+ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(240, 155, 214);
+    grid-area: nav;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(240, 155, 214);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a :hover {
+    background-color: crimson;
+}
+header a{
+    display: none;
+}

@@ -1,30 +1,26 @@
-body{
-    background-image: linear-gradient(to right,rgb(252, 188, 248),rgb(207, 158, 247));
-    width: 1600px;
+nav ul {
+    display: flex;
+    justify-content: space-around;
 }
-ul{
-    list-style-type: none;
-    margin:0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: rgb(240, 155, 214);
-}
-li{
-    float: left;
-}
-li a{
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li a :hover{
-    background-color: crimson;
-}   
-p{
+
+p {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 4, 7);
-}    
-h1{
+    grid-area: aside;
+}
+
+h1 {
     font-family: Arial, Helvetica, sans-serif;
+    grid-area: header;
+}
+nav > ul > li {
+    position: relative;
+    width: 100%;
+}
+nav ul ul {
+    position: absolute;
+    display: block;
+    background-color: blue;
+    width: 100%;
+    padding: 0;
 }
