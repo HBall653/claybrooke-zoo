@@ -1,0 +1,15 @@
+h1 + p{
+    color:green
+}
+input[type="text"]{
+    background-color: green;
+    color: white;
+    display: block;
+    margin: 5px;
+}
+div form input:nth-child(1){
+    background-color:red;
+    color: white;
+    display: block;
+    margin: 5px; 
+}
