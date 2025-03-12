@@ -6,7 +6,6 @@
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(252, 188, 248), rgb(207, 158, 247));
     width: 1600px;
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -50,6 +49,7 @@ li a {
 li a :hover {
     background-color: crimson;
 }
-header a{
+
+header a {
     display: none;
 }
