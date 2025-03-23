@@ -18,21 +18,12 @@ body {
 
 }
 
-ol {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: rgb(240, 155, 214);
-    grid-area: nav;
-}
-
 ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: rgb(240, 155, 214);
+    background-color: rgb(36, 245, 4);
 }
 
 li {
